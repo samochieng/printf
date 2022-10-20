@@ -1,24 +1,62 @@
-Printf
-Synopsis
-This is a simple implementation of printf function that formats and prints data
+# 0x11. C - printf.
 
-Description
-The _printf() function produces output according to a format which is described below. This function write its output to the stdout, the standard output stream. Returns the count of printed characters when the function is successful and -1 when the function fails.
+**Concepts**
+For this project, we expect you to look at these concepts:
+- [Group Projects](https://alx-intranet.hbtn.io/concepts/111)
 
-The available convertion specifiers are:
+- [Pair Programming - How to](https://alx-intranet.hbtn.io/concepts/121)
 
-%c: Prints a single character.
-%s: Prints a string of characters.
-%d: Prints integers.
-%i: Prints integers.
-%b: Prints the binary representation of an unsigned decimal.
-%u: Prints unsigned integers
-%x: Prints the hexadecial representation of an unsigned decimal in lowercase letters
-%X:Prints the hexadecial representation of an unsigned decimal in uppercase letters
-%r: Prints a reversed string
-%R: Prints the Rot13 interpretation of a string
+- [Flowcharts](https://alx-intranet.hbtn.io/concepts/130)
 
-Usage
-All the files are to be compiled on Ubuntu 14.04 LTS
-Compile your code with gcc -Wall -Werror -Wextra -pedantic *.c
-Include the "main.h" header file on the functions using the _printf()
+-[Technical writing](https://alx-intranet.hbtn.io/concepts/225)
+
+## Resources.
+
+**Read or watch**
+
+- [Secrets of printf](https://alx-intranet.hbtn.io/rltoken/7Vw7aUWgwC7JYUrqI4bh4Q)
+
+- **Group Projects** concept page (*Don’t forget to read this*)
+
+- **Flowcharts** concept page.
+
+**Man or help**
+ - printf(3)
+
+
+### Requirements.
+
+**General**
+
+Allowed editors: vi, vim, emacs
+All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+All your files should end with a new lin
+
+A README.md file, at the root of the folder of the project is mandatory
+Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+You are not allowed to use global variables
+No more than 5 functions per file
+In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
+The prototypes of all your functions should be included in your header file called main.h
+Don’t forget to push your header file
+All your header files should be include guarded
+Note that we will not provide the putchar function for this project.
+
+
+**GITHUB**
+
+**There should be one project repository per group. The other members do not fork or clone the project to ensure only one of the team has the repository in their github account otherwise you risk scoring 0%**
+
+#### More Info.
+
+**Authorized functions and macros**
+
+write (man 2 write)
+malloc (man 3 malloc)
+free (man 3 free)
+va_start (man 3 va_start)
+va_end (man 3 va_end)
+va_copy (man 3 va_copy)
+va_arg (man 3 va_arg)
+
+
